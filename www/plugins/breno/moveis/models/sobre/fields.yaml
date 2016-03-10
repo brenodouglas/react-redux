@@ -1,0 +1,33 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+fields:
+    sobre:
+        label: Sobre a Empresa
+        type: richeditor
+        size: huge
+    telefone:
+        label: Telefone
+        placeholder: (99) 9999-9999
+        span: left
+    email:
+        label: Email
+        placeholder: noreply@meudominio.com.br
+        span: right
+    cidade:
+        label: Cidade
+        placeholder: Cidade-ES
+        span: left
+    endereco:
+        label: Endereço
+        placeholder: Av. lorem impsum
+        span: right
+    facebook:
+        label: Facebook
+        placeholder: http://facebook.com/minhapagina
+    twitter:
+        label: Twitter
+        placeholder: http://twitter.com/minhapagina
+    instagram:
+        label: Instagram
+        placeholder: http://instagram.com/minhapagina
