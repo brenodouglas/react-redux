@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import Counter from 'components/Counter';
 import { connect } from 'react-redux'
 
-const main = ({components, counter, dispatch}) => (
+const main = ({counters, dispatch}) => (
     <section>
         <button onClick={() => {
             dispatch({type: 'COUNTER_INCREMENT'})
         }}>Add Counter</button>
 
-        {components.map((counter, key) => {
+        {counters.map((counter, key) => {
            return (<Counter key={key} value={counter}
                 onIncrement={() => {
                     dispatch({type: 'INCREMENT', index: key})

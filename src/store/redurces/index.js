@@ -1,7 +1,6 @@
 import {combineReducers} from 'redux';
-import counter from './counter';
-import counterComponents from './counterComponents';
+import counterCollection from './counterCollection';
 
 export default combineReducers({
-    components: counterComponents
+    counters: counterCollection
 });
